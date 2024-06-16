@@ -2,11 +2,6 @@ let count = 0;
 
 const value = document.querySelector('#value');
 const btns = document.querySelectorAll('.btn');
-//instead of selecting btns one-by-one using their specific classes
-
-console.log(btns);//displays NodeList
-//kinda similar to an array
-//so forEach can be used too!
 
 btns.forEach(function(btn) {
   btn.addEventListener('click', function(e) {
